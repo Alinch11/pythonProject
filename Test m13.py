@@ -10,5 +10,5 @@ for number in range(x):
     else:
         s += 1390
 if x > 3:
-    s = s * 0.9
+    s *= 0.9
 print('Стоимость: ', s)
