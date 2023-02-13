@@ -6,9 +6,9 @@ for number in range(x):
     if y < 18:
         s = s
     elif 18 <= y < 25:
-        s = s + 990
+        s += 990
     else:
-        s = s + 1390
+        s += 1390
 if x > 3:
     s = s * 0.9
 print('Стоимость: ', s)
