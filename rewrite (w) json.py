@@ -27,6 +27,6 @@ template = {
 
 with open('to_json_example.json', 'w', encoding='utf8') as f:
     json.dump(template, f, ensure_ascii=False, indent=4)
-
+# dump позволяет файл в формате python переводить в JSON
 with open('to_json_example.json', encoding='utf8') as f:
     print(f.read())
